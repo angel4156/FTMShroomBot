@@ -6,7 +6,7 @@ exports.run = (client, message, args, level) => {
 
   const embed = new MessageEmbed()
     .setColor('#0099ff')
-    .setAuthor('Shroom Bot', 'https://cdn.discordapp.com/avatars/904964094493331486/ebe7fe26128d07966cdae514f1701d90.png', 'https://discord.js.org')
+    .setAuthor('Shroom Bot', 'https://gateway.pinata.cloud/ipfs/QmXPS6keUCaJSAuZhAPRqyzka9iRZ4e4bnhXPpBx94GRTB', 'https://discord.js.org')
     .setDescription(`[Follow this link to get a role.](${config.siteUrl}/role/guilds/${message.guild.id}/members/${message.author.id})`)
     .setTimestamp()
 
